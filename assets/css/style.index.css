@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#header{
+    background-color: #1d7044;
+    color: white;
+    width: 100%;
+    padding: 0.5%;
+}
+
+#consultorio{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

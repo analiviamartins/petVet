@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetVet</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="consultorio">Dr.Ana VetClinic</h1>
+        <button>Cadastro</button>
+        <button>Exibição</button>
+    </div>
+    <div id="container">
+        <h2>Cadastro de Pets</h2>
+
+        <label for="">Tutor:</label>
+        <input type="text" id="tutor">
+
+        <label for="">Nome do Pet:</label>
+        <input type="text" id="nome">
+
+        <label for="">Espécie:</label>
+        <input type="text" id="especie">
+
+        <label for="">Fotinha:</label>
+        <input type="text" id="foto">
+
+        <label for="">Data de Nascimento</label>
+        <input type="date" id="data">
+    </div>
+    <div id="resultado">
+        <button onclick="verificarCampos()">cadastrar</button>
+        <p id="msg"></p>
+    </div>
+    <div id="containerResult">
+
+    </div>
+    <footer>
+        <h2>©2023 Dr.Ana VetClinic. Todos os direitos reservados. </h2>
+    </footer>
+    <script src="assets/js/script.index.js"></script>
+</body>
+</html>
